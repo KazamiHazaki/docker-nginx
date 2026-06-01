@@ -4,6 +4,7 @@ services:
     image: php-nginx-alpine
     volumes: 
       - ./src/index.php:/var/www/html/index.php
+      - ./nginx-secure.conf:/etc/nginx/http.d/default.conf
     ports:
       - 8958:80
     
