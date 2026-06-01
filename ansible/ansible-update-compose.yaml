@@ -1,0 +1,9 @@
+---
+- name : build compose dockerfile
+  hosts: local
+  become: true
+
+  tasks:
+    - name: update docker
+      ansible.builtin.shell: |
+       docker compose -f /root/mtest/docker-compose.yaml up -d --force-recreate

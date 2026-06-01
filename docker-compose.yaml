@@ -1,0 +1,9 @@
+services:
+  nginx:
+    container_name: mtestx
+    image: php-nginx-alpine
+    volumes: 
+      - ./src/index.php:/var/www/html/index.php
+    ports:
+      - 8958:80
+    
