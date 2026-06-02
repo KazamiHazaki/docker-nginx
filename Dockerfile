@@ -2,23 +2,23 @@ FROM alpine:3.20
 
 RUN apk add --no-cache \
     nginx \
-    php83 \
-    php83-fpm \
-    php83-opcache \
-    php83-mysqli \
-    php83-pdo \
-    php83-pdo_mysql \
-    php83-mbstring \
-    php83-json \
-    php83-curl \
-    php83-xml \
-    php83-session \
-    php83-tokenizer \
-    php83-dom \
-    php83-fileinfo \
-    php83-ctype \
-    php83-phar \
-    php83-openssl \
+    php82 \
+    php82-fpm \
+    php82-opcache \
+    php82-mysqli \
+    php82-pdo \
+    php82-pdo_mysql \
+    php82-mbstring \
+    php82-json \
+    php82-curl \
+    php82-xml \
+    php82-session \
+    php82-tokenizer \
+    php82-dom \
+    php82-fileinfo \
+    php82-ctype \
+    php82-phar \
+    php82-openssl \
     curl \
     bash
 
